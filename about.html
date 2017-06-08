@@ -164,8 +164,10 @@ hr.six{border:none; border:5px double orange;height:50%}
 
                 <center>
                     <h4> 
-                        장 소 : 대전광역시 유성구 대학로 291, KAIST ITC 빌딩(N1) 117호 <br>
-                        날 짜 : 2017년 6월 30일 (금) ~ 7월 1일 (토)
+                    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=8xFFqPfOGsMVdI1rXsQ9"></script>
+                        날 짜 : 2017년 6월 30일 (금) ~ 7월 1일 (토) <br>
+                        장 소 : 대전광역시 유성구 대학로 291, KAIST ITC 빌딩(N1) 117호
+                        <div id="map" style="width:100%;height:400px;"></div>
                     <script>
                         var mapOptions = {center: new naver.maps.LatLng(36.374127, 127.365614),zoom: 11, scrollWheel:false};
                         var map = new naver.maps.Map('map', mapOptions);
