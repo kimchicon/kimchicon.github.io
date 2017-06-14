@@ -311,6 +311,57 @@
 				<br><br><br><br>
 
 
+
+				<div class="title-box-v2">
+					<h3><b>Branch Shadowing: SGX Enclave 실행 흐름 알아내기</b></h3>
+				</div>
+				<div class="row">
+					<!-- Left Inner -->
+					<div class="col-md-5">
+						<div class="left-inner" style="height: 400px"> 
+							<img src="img/bio/LSH.jpg" alt="">
+							<div class="overflow-h">
+								<span class="font-s"><b>이상호</b></span>
+								<p class="color-green">Georgia Tech</p>
+								<ul class="social-icons">
+									<li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+								</ul>
+							</div>
+
+							<hr>
+
+
+							<h3>Profile</h3>
+							<div class="people-say margin-bottom-20">
+								<div>
+									<span>- Postdoctoral Fellow at Georgia Tech
+									<br>- Research interests: system and web security</span>
+								</div>
+							</div>
+
+							<hr>
+
+						</div>
+					</div>
+					<!-- End LEft Inner -->
+
+					<!-- Right Inner -->
+					<div class="col-md-7">
+						<div class="right-inner" style="text-align: justify; height: 400px;">
+							<hr>
+							<h2>Abstract</h2>
+							<p>공개 클라우드 또는 의심스러운 컴퓨터 상에서의 안전한 프로그램 실행은 매우 중요한 보안 요구사항이다. 이 문제를 해결하기 위해서 최신 인텔 CPU는 Software Guard Extension (SGX)라는 새로운 보안 기능을 제공한다. SGX는 개별 프로그램에게 하드웨어 수준에서 독립되어 있는 실행 환경(enclave)을 제공하기 때문에 심지어 OS나 하이퍼바이저 조차도 해당 프로그램이 SGX기능을 사용해서 어떤 작업을 수행했는지를 직접적으로는 알 수 없다. 그러나 최근 부채널을 통해서 SGX 프로그램의 메모리 페이지 단위의 접근을 파악할 수 있는 공격이 발표된 후, SGX에 보다 심각한 부채널은 없는지 그리고 부채널을 없앨 방법은 없는지에 대한 연구가 활발히 진행되고 있다. 본 발표를 통해서 발표자는 SGX에 대한 보다 심각한 부채널 공격을 소개할 것이다. 제안하는 공격은 SGX 내에서의 개별 브랜치 명령어의 실행 여부와 그 목적지를 매우 정확하게 파악할 수 있기 때문에 기존 페이지 수준 공격 보다 훨씬 자세한 실행 흐름을 알아낼 수 있다. 본 발표자는 우선 SGX 특성을 소개하고, CPU 하드웨어 수준의 어떤 기능들 때문에 소개하는 공격이 가능한지를 설명할 것이다. 나아가서 소개한 공격에 대한 하드웨어 그리고 소프트웨어 수준의 대응책에 대해서도 논하고자 한다.</p>
+							<hr>			
+						</div>
+					</div>
+					<!-- End Right Inner -->
+				</div>
+				<div class="row"></div>
+				<br><br><br><br>
+
+
+
+
 				<div class="title-box-v2">
 					<h3><b>DELTA: SDN SECURITY EVALUATION FRAMEWORK </b></h3>
 				</div>
@@ -355,9 +406,59 @@
 					</div>
 					<!-- End Right Inner -->
 				</div>
-
 				<div class="row"></div>
 				<br><br><br><br>
+
+
+				<div class="title-box-v2">
+					<h3><b>Hacking in Darkness: Return-oriented Programming against Secure Enclaves</b></h3>
+				</div>
+				<div class="row">
+					<!-- Left Inner -->
+					<div class="col-md-5">
+						<div class="left-inner" style="height: 400px"> 
+							<img src="img/bio/LJH.jpg" alt="">
+							<div class="overflow-h">
+								<span class="font-s"><b>이재혁</b></span>
+								<p class="color-green">KAIST</p>
+								<ul class="social-icons">
+									<li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+								</ul>
+							</div>
+
+							<hr>
+
+
+							<h3>Profile</h3>
+							<div class="people-say margin-bottom-20">
+								<div>
+									<span>- Cyber Security Systems Research (CYSEC) lab at KAIST
+									<br>- Research interests : Architecture, System security, GPU</span>
+								</div>
+							</div>
+
+							<hr>
+
+						</div>
+					</div>
+					<!-- End LEft Inner -->
+
+					<!-- Right Inner -->
+					<div class="col-md-7">
+						<div class="right-inner" style="text-align: justify; height: 400px;">
+							<hr>
+							<h2>Abstract</h2>
+							<p>Intel SGX는 하드웨어 기반의 Trusted Execution Environment (TEE)를 제공하여 기존의 보안위협들에 대한 효과적인 방어책을 제공하고 있다. Intel SGX는 소프트웨어 취약점이 존재하지 않는한, 프로그램 (Enclave)에 대한 강력한 무결성과 기밀성을 제공한다. 하지만 이전의 경험들을 돌이켜 보았을때, 소프트웨어에 취약점이 존재하지 않는 상황을 가정하기란 매우 어렵다고 할 수 있다. 지금까지 Intel SGX에 대한 공격이 side-channel에 집중되어 왔지만, 우리는 Intel SGX를 사용하는 프로그램에 소프트웨어 취약점이 존재하는 상황하에 이를 어떻게 공격을 할 수 있으며 어떤 효과를 얻을 수 있는지에 대한 물음에 대답하고자 한다. 우리는 Enclave에 대한 실용적인 공격 방식인 Dark-ROP를 제안하며, 이를 통하여서 Intel SGX가 Enclave의 코드와 데이터에 제공하는 기밀성과 무결성을 완벽하게 우회할 수 있는 방식을 제안한다. Dark-ROP는 Enclave 코드와 데이터에 대한 정보 없이도, 공격에 필요한 ROP 가젯들을 획득할 수 있는 방식을 제안하며, 획득한 가젯들을 통하여서 Intel SGX가 제공하는 데이터 실링과 리모트 어테스테이션을 우회하는 방법을 제안한다.</p>
+							<hr>			
+						</div>
+					</div>
+					<!-- End Right Inner -->
+				</div>
+				<div class="row"></div>
+				<br><br><br><br>
+
+
+
 
 				<div class="title-box-v2">
 					<h3><b>SMB 너로 정했다!</b></h3>
@@ -411,17 +512,6 @@ SMB 프로토콜 구조 분석 및 기존 취약점을 이해하는 시간을 �
 				</div>
 				<div class="row"></div>
 				<br><br><br><br>
-
-
-
-
-
-
-
-
-
-
-
 
 
 				<div class="title-box-v2">
@@ -523,7 +613,7 @@ SMB 프로토콜 구조 분석 및 기존 취약점을 이해하는 시간을 �
 
 				<div class="title-box-v2">
 					<h3><b>
-Silent Gunfire : Unveiling Ties Between APT Activity in South Korea</b></h3>
+                    Silent Gunfire : Unveiling Ties Between APT Activity in South Korea</b></h3>
 				</div>
 				<div class="row">
 					<!-- Left Inner -->
