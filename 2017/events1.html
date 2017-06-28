@@ -5,6 +5,12 @@
 <head>
 	<title>Kimchicon 2017</title>
 
+    <!-- Facebook Thumbnail -->
+    <meta property="og:image" content="http://kimchicon.org/2017/img/profile_fb.png" />
+    <meta property="og:title" content="Kimchicon Events" />
+    <meta property="og:description" content="기반시설(ICS or SCADA) CTF"/>
+
+
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,9 +78,6 @@
 						</li>
 						<!-- End Home -->
 
-
-
-
 						<!-- Pages -->
 						<li class="dropdown">
 							<a href="cfp.html">
@@ -108,15 +111,14 @@
 						<!-- End Pages -->
 
 
-
-						<li class="dropdown">
+						<li class="dropdown ">
 							<a href="speaker.html">
-							    SPEAKER 
+							    SPEAKER
 							</a>
 						</li>
 
 						<!-- Portfolio -->
-						<li class="dropdown">
+						<li class="dropdown ">
 							<a href="staff.html">
 								STAFF
 							</a>
@@ -129,29 +131,89 @@
 		</div>
 		<!--=== End Header ===-->
 
+<style>
+hr.star-primary {
+    margin: 25px auto 30px;
+    color:red;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+
+hr.star-primary:after {
+    color: red;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+hr.six{border:none; border:5px double orange;height:50%}
+</style>
+
+
+<div class="container content profile">
+
+   <div class="col-md-12">
+    <div class="col-lg-8 col-lg-offset-2 text-justify" style='background: #000000'>
+dd
+<br>
+dd
+<br>
+
+</div>
+</div>
+</div>
 
 
 		<!--=== Content Part ===-->
         <div class="container content">
-		<div class="col-lg-8 col-lg-offset-2 text-center">
-			<div class="title-v1">
-				<h2>CTF</h2>
-				<p>오직 김치콘에서만 경험할 수 있는 이벤트!<br> 본 행사는 김치콘이 진행되는 시간 동안 계속 진행 됩니다.</p>
-			</div>
-			<center>
-	        <img style="width:100%"src="img/ctf.jpg"></img></center>
-	        <br><br> 
-	        <center><h2>CTF Web Page</h2><center>
-	        <img style="width:100%"src="img/ctf/CTF_Web.jpg"></img> 
-	        <br><br>
-	        <center><h2>CTF Plaform</h2><center>
-	        <img style="width:100%"src="img/ctf/CTF_Platform.jpg"></img> 
+            <div class="col-lg-8 col-lg-offset-2 text-justify" style="text-align:center">
+            <h1 style="font-size:50px">CTF</h1>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2">
+				<div class="row">
+					<!-- Left Inner -->
+                        <br><br>
+                        <h2>기반시설(ICS or SCADA) 관련 CTF가 Kimchicon 2017에서 개최됩니다. <br>CTF 상위권에게는 상품이 있으니 많이 참여해주시기 바랍니다</h2>
+					<!-- End LEft Inner -->
+				</div>
 
+                <hr style="border:none; border:5px double;">
+                <ul>
+                    <li><h2>CTF 내용</h2></li>
+                    <ul>
+                    <li><h5>기반시설(ICS or SCADA) 관련 CTF</h5></li>
+                    <li><h5>퀴즈부터 웹, 디코딩 문제 등등 쉬운 내용</h5></li>
+                    <li><h5>기반 시설 내 장비에 웹 서버 해킹</h5></li>
+                    <li><h5>RF(무선 주파수), USB, DNS 등을 활용하여 망 분리 우회</h5></li>
+                    </ul>
 
-		</div>
-		</div>
+                    <hr>
+                    <li><h2>참여방식</h2></li>
+                    <ul>
+                    <li><h5>웹, 퀴즈, 디코딩 문제는 CTF서버에 접속하여 문제 풀이</h5></li>
+                    <li><h5>RF, USB, DNS등을 통한 망분리는 <strong><code style="color:blue;background-color:white"> N1 114호</code></strong>에 세팅해둔 장비와 노트북으로 문제 풀이</h5></li>
+                    </ul>
+                    <hr>
+                    <li><h2>CTF 시간</h2></li>
+                    <ul>
+                    <li><h5>KimChiCon 2017이 진행되는 시간 동안 쭈욱~~</h5></li>
+                    </ul>
 
-		</div>
+                </ul>
+                <hr style="border:none; border:5px double;">
+ 
+                <center><h2>CTF Web Page</h2><center>
+                <img style="width:100%"src="img/ctf/CTF_Web.jpg"></img> 
+                <br><br>
+                <center><h2>CTF Plaform</h2><center>
+                <img style="width:100%"src="img/ctf/CTF_Platform.jpg"></img> 
+            </div>
+        </div>
 
 
 
@@ -214,7 +276,6 @@
 	<script type="text/javascript" src="js/custom.js"></script>
 	<!-- JS Page Level -->
 	<script type="text/javascript" src="js/app.js"></script>
-		<script src="js/plugins/cube-portfolio-lightbox.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			App.init();
