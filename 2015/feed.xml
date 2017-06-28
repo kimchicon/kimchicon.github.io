@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>김치콘</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>https://kimchicon.org/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 09 Jun 2015 22:22:56 +0900</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2015 22:22:56 +0900</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>오정욱</title>
+        <description>&lt;b&gt;김치콘 조직위원장.&lt;/b&gt;&lt;br&gt;&lt;br&gt;현 Microsoft 본사 비밀 임무를 띤 보안팀 에 최근 스카웃. &lt;br&gt;DarunGrim 제작자. &lt;br&gt; 다수의 보안 컨퍼런스 스피커. &lt;br&gt; 하드웨어 해커 워너비.</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/staff/2015/04/06/project-9/</link>
+        <guid isPermaLink="true">https://kimchicon.org/staff/2015/04/06/project-9/</guid>
+        
+        
+        <category>staff</category>
+        
+      </item>
+    
+      <item>
+        <title>허영일</title>
+        <description>&lt;b&gt;총무&lt;/b&gt;&lt;br&gt;&lt;br&gt;현 NSHC 대표이사&lt;br&gt;글로벌 비즈니스 사업을 위해 싱가포르에서 체류 중이며, &lt;br&gt;Offensive Research Business Modeling 에 관심이 많음&lt;br&gt;다수의 보안 컨퍼런스 발표</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/staff/2015/04/06/project-8/</link>
+        <guid isPermaLink="true">https://kimchicon.org/staff/2015/04/06/project-8/</guid>
+        
+        
+        <category>staff</category>
+        
+      </item>
+    
+      <item>
+        <title>박찬주</title>
+        <description>&lt;b&gt;영상&lt;/b&gt;&lt;br&gt;&lt;br&gt;현 프리랜서&lt;br&gt; 가르치는 일이 좋아 강의 하면서 프로젝트를 간간히 하는 강사&lt;br&gt; 네이버 SOLATECHNET, LOGIN 클럽  운영자</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/staff/2015/04/06/project-7/</link>
+        <guid isPermaLink="true">https://kimchicon.org/staff/2015/04/06/project-7/</guid>
+        
+        
+        <category>staff</category>
+        
+      </item>
+    
+      <item>
+        <title>조민재</title>
+        <description>&lt;b&gt;CFP&lt;/b&gt;&lt;br&gt;&lt;br&gt;현 프리랜서&lt;br&gt; 테크앤로법률사무소 IT/보안 팀장&lt;br&gt;한양대학교 컴퓨터소프트웨어학과 박사과정&lt;br&gt;Security, however, is an art, not a science. (RFC3631)</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/staff/2015/04/06/project-6/</link>
+        <guid isPermaLink="true">https://kimchicon.org/staff/2015/04/06/project-6/</guid>
+        
+        
+        <category>staff</category>
+        
+      </item>
+    
+      <item>
+        <title>김재기</title>
+        <description>&lt;b&gt;CFP&lt;/b&gt;&lt;br&gt;&lt;br&gt;현 고려대학교 정보보호대학원&lt;br&gt; SECU87 멤버</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/staff/2015/04/06/project-5/</link>
+        <guid isPermaLink="true">https://kimchicon.org/staff/2015/04/06/project-5/</guid>
+        
+        
+        <category>staff</category>
+        
+      </item>
+    
+      <item>
+        <title>곽성현</title>
+        <description>&lt;b&gt;현장 셋업&lt;br&gt; 커피타임 및 이벤트 준비&lt;/b&gt;&lt;br&gt;&lt;br&gt;현 NSHC RedAlert팀 악성코드 분석 연구원&lt;br&gt;공기 좋은 의왕에서 닭 울음소리와 경운기소리의 콜라보를 들으며 악성코드 분석 중</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/staff/2015/04/06/project-4/</link>
+        <guid isPermaLink="true">https://kimchicon.org/staff/2015/04/06/project-4/</guid>
+        
+        
+        <category>staff</category>
+        
+      </item>
+    
+      <item>
+        <title>최현우</title>
+        <description>&lt;b&gt;리셉션&lt;/b&gt;&lt;br&gt;&lt;br&gt;현 KAIST 정보보호대학원 박사과정&lt;br&gt;KAIST 시스템보안연구실</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/staff/2015/04/06/project-3/</link>
+        <guid isPermaLink="true">https://kimchicon.org/staff/2015/04/06/project-3/</guid>
+        
+        
+        <category>staff</category>
+        
+      </item>
+    
+      <item>
+        <title>최원혁</title>
+        <description>&lt;/b&gt;&lt;br&gt;(주)누리랩 대표 및 미래창조과학부 사이버보안전문단원으로 활동하고 있다.&lt;br&gt;1993년부터 악성코드에 매력을 느끼고 리버스엔지니어링을 독학으로 공부했다. 이후 악성코드를 누구나 쉽게 치료할 수 있게 1995년 키콤 백신을 개발하기 시작했으며 지금은 키콤백신 소스코드를 오픈해 지속적으로 개발을 하고 있다.&lt;br&gt;</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/board/2015/04/06/project-23/</link>
+        <guid isPermaLink="true">https://kimchicon.org/board/2015/04/06/project-23/</guid>
+        
+        
+        <category>board</category>
+        
+      </item>
+    
+      <item>
+        <title>차민석</title>
+        <description>&lt;/b&gt;&lt;br&gt;현 안랩 시큐리티대응센터 분석팀 책임 연구원으로 악성코드 분석/연구 업무를 수행 중&lt;br&gt;제 4,5기 민관합동조사단, 미래창조과학부 사이버보안전문단으로 활동 중&lt;br&gt;AMTSO(Anti Malware Testing Standards Organization), AVED(AntiVirus Emergency Discussion), vforum 등의 맴버이며, 와일드리스트(WildList Reporter) 리포터로 활동하고 있다.&lt;br&gt;코드엔진, 코드게이트 등에서 발표 경험이 있으며 2014년 K-Shield 강사를 했다&lt;br&gt;현재 보안 공부 외에도 장인 어르신 얼굴과 닮아 가끔 깜짝 놀라게 하는 아들을 육아 중이다.&lt;br&gt;</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/board/2015/04/06/project-22/</link>
+        <guid isPermaLink="true">https://kimchicon.org/board/2015/04/06/project-22/</guid>
+        
+        
+        <category>board</category>
+        
+      </item>
+    
+      <item>
+        <title>김휘강</title>
+        <description>&lt;/b&gt;&lt;br&gt;현재 고려대학교 정보보호대학원 부교수로 재직중&lt;br&gt;온라인 게임 보안 분야와 악성코드 분석 분야를 주로 연구 중&lt;br&gt;1999년 8월 에이쓰리시큐리티를 창업했으며&lt;br&gt;2004년~2010년 2월까지 엔씨소프트 정보보안실장을 맡아&lt;br&gt; 8개국 서비스 보안을 총괄했다.</description>
+        <pubDate>Mon, 06 Apr 2015 00:00:00 +0900</pubDate>
+        <link>https://kimchicon.org/board/2015/04/06/project-21/</link>
+        <guid isPermaLink="true">https://kimchicon.org/board/2015/04/06/project-21/</guid>
+        
+        
+        <category>board</category>
+        
+      </item>
+    
+  </channel>
+</rss>
