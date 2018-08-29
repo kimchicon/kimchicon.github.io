@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<title>Kimchicon 2018</title>
+
+    <!-- Facebook Thumbnail -->
+    
+    <meta property="og:image" content="http://kimchicon.org/2018/img/profile_fb.png" />
+    <meta property="og:title" content="List of Speakers" />
+    <meta property="og:description" content="Kimchicon 2018"/>
+    
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon 
+	<link rel="shortcut icon" href="favicon.ico">
+	-->
+	<!-- Web Fonts -->
+	<!-- <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/earlyaccess/nanumgothic.css'>-->
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="css/headers/header-default.css">
+	<link rel="stylesheet" href="css/footers/footer-v1.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="plugins/animate.css">
+	<link rel="stylesheet" href="plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/pages/profile.css">
+	<link rel="stylesheet" href="css/pages/page_job_inner1.css">
+
+
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="css/theme-colors/dark-red.css" id="style_color">
+	<link rel="stylesheet" href="css/theme-skins/dark.css">
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body class="dark">
+	<div class="wrapper">
+		<!--=== Header ===-->
+		<div class="header">
+			<div class="container">
+				<!-- Logo -->
+				<a class="logo" href="index.html">
+					<h3><b>김치콘</b></h3>
+				</a>
+				<!-- End Logo -->
+
+				<!-- Toggle get grouped for better mobile display -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="fa fa-bars"></span>
+				</button>
+				<!-- End Toggle -->
+			</div><!--/end container-->
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+				<div class="container">
+					<ul class="nav navbar-nav">
+						<!-- Home -->
+						<li class="dropdown">
+							<a href="home.html">
+								Home
+							</a>
+						</li>
+						<!-- End Home -->
+
+						<!-- Speaker -->
+						<li class="dropdown active">
+							<a href="speaker.html">
+								Speakers
+							</a>
+						</li>
+						<!-- Speaker Home -->
+
+						<!-- Pages -->
+						<li class="dropdown">
+							<a href="cfp.html">
+								CFP
+							</a>
+						</li>
+						<!-- End Pages -->
+
+					</ul>
+				</div><!--/end container-->
+			</div><!--/navbar-collapse-->
+		</div>
+		<!--=== End Header ===-->
+
+
+        <!-- Key Note Section-->
+
+        <!-- End Of Keynote-->
+
+
+        <!-- Panel Discussion -->
+
+        <!-- End of Panel-->
+
+
+
+
+        <!-- Spakers List -->
+
+		<div class="job-description">
+			<div class="container content">
+				<div class="title-box-v2">
+					<h1><b>SPEAKERS</b></h1>
+				</div>
+                <hr>
+
+
+
+                <div class="title-box-v2" id="Session1">
+                    <h3><b>Exploit Linux kernel eBPF with side-channel</b></h3>
+                </div>
+                <div class="row">
+                    <!-- Left Inner -->
+                    <div class="col-md-5">
+                        <div class="left-inner" style="height: 400px"> 
+                            <img src="img/bio/BJB.jpg" alt="">
+                            <div class="overflow-h">
+                                <span class="font-s"><b>박진범</b></span>
+                                <p class="color-green">Samsung Research</p>
+                                <ul class="social-icons">
+                                    <li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+                                </ul>
+                            </div>
+
+                            <hr>
+
+
+                            <h3>Profile</h3>
+                            <div class="people-say margin-bottom-20">
+                                <div>
+                                    <span>
+                                        - SAMSUNG Research Security Team 에 있습니다. 주로 제품 보안 솔루션 개발, 논문 쓰는 일을 합니다.
+                                        <br>- Offensive security 는 업무가 아닌, 개인적으로 진행하고 있습니다.
+                                        <br>- 관심분야 :  Linux kernel security, Side channel attack (Crypto, CPU Vulnerability)
+                                                
+                                    </span>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                        </div>
+                    </div>
+                    <!-- End LEft Inner -->
+
+                    <!-- Right Inner -->
+                    <div class="col-md-7">
+                        <div class="right-inner" style="text-align: justify; height: 400px;">
+                            <hr>
+                            <h2>Abstract</h2>
+                            <p>Spectre, Meltdown 을 시작으로 private 한 정보를 leak 할 수 있는 side-channel 공격이 전세계를 위협하고 있습니다.
+                                또한 최근에는 Variant 3a, 4 라는 이름으로 새로운 공격이 추가로 공개되었습니다.
+                                이러한 side-channel 공격의 경우 실제 공격 가능한 target 을 찾는 것은 매우 어렵습니다.
+                                Spectre variant1, variant4 의 경우 실제 공격 가능한 target 은 모두 Linux kernel eBPF(extended Berkeley Packet Filter) 였습니다.
+                                따라서 해당 발표에서는 eBPF 라는게 무엇인지, 왜 side-channel 공격의 target 으로 eBPF 가 선정되었는지를 소개합니다.
+                                그리고 Spectre variant1, variant4 공격에 대해 간략하게 소개하고,
+                                Google 에서 공개한 eBPF 와 Spectre 를 악용하여 user process 에서 kernel memory 를 read 하는 공격에 대해서 설명합니다.
+                                또한 Google 에서 공개한 공격 코드의 문제에 대해서 이야기하고, 이 문제를 어떻게 극복할 수 있는지 소개합니다.
+                                마지막으로, 위 공격들이 모두 패치된 Linux kernel 에 대해서도 공격 가능한 Point 가 남아있을지 생각해 봅니다.
+                            </p>
+                            <hr>			
+                        </div>
+                    </div>
+                    <!-- End Right Inner -->
+                </div>
+
+                <div class="row"></div>
+                <br><br><br><br>
+
+                <!-- Speakers 1 Starts -->
+				<div class="title-box-v2" id="Session2">
+					<h3><b>이더리움 스마트 컨트랙트에서 발생하는 취약점 소개</b></h3>
+				</div>
+				<div class="row">
+					<!-- Left Inner -->
+					<div class="col-md-5">
+						<div class="left-inner" style="height: 400px"> 
+							<img src="img/bio/SJH.jpg" alt="">
+							<div class="overflow-h">
+								<span class="font-s"><b>송종혁</b></span>
+								<p class="color-green">Samsung Research</p>
+								<ul class="social-icons">
+									<li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+								</ul>
+							</div>
+
+							<hr>
+
+							<h3>Profile</h3>
+							<div class="people-say margin-bottom-20">
+								<div>
+									<span>
+                                     - 현재 Samsung Research에 security팀에서 근무 중
+                                     <br>- POSTECH, HPC연구실에서 박사 학위 취득
+                                     <br>- PLUS 멤버로 데프콘을 비롯한 여러 해킹 대회 출전 경험
+                                                
+                                    
+                                    </span>
+								</div>
+							</div>
+
+							<hr>
+
+
+						</div>
+					</div>
+					<!-- End LEft Inner -->
+
+					<!-- Right Inner -->
+					<div class="col-md-7">
+						<div class="right-inner" style="text-align: justify; height: 400px;">
+							<hr>
+							<h2>Abstract</h2>
+							<p>본 발표에서는 저자가 직접 찾은 이더리움 스마트 컨트랙트 취약점들을 소개한다.
+                                소개할 취약한 스마트 컨트랙트 종류는 ERC20 토큰과 게임/도박 컨트랙트 2가지가 있다. ERC20 토큰에서 소개할 취약점은 logic error, 중복 출금, 권한 설정 부재 등이 있고 스캠 토큰에 대한 얘기도 언급한다. 게임/도박 컨트랙트에서는 안전하지 않은 난수 생성으로 인한 취약점들을 소개하고 internal transaction을 사용하여 exploit 방법에 대해 설명한다. 이 방법을 통하여 생성될 난수를 미리 예측하여 상금에 당첨되고, 가장 강한 캐릭터를 생성한 예시를 보여준다. 본 발표를 통하여 이더리움 스마트 컨트랙트 개발 시 보안상 주의해야 할 점들에 대해 알아보는 시간이 될 수 있기를 기대한다.</p>
+							<hr>			
+						</div>
+					</div>
+					<!-- End Right Inner -->
+				</div>
+
+				<div class="row"></div>
+                <br><br><br><br>
+                
+                <!-- Speakers 1 End -->
+
+
+                <div class="title-box-v2" id="Session3" >
+                    <h3><b>(Invited Talk) 버그 찾기 방법, 퍼징 기술 다시 생각해보기</b></h3>
+                </div>
+                <div class="row">
+                    <!-- Left Inner -->
+                    <div class="col-md-5">
+                        <div class="left-inner" style="height: 400px"> 
+                            <img src="img/bio/Blank.jpg" alt="">
+                            <div class="overflow-h">
+                                <span class="font-s"><b>이병영</b></span>
+                                <p class="color-green">서울대학교</p>
+                                <ul class="social-icons">
+                                    <li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+                                </ul>
+                            </div>
+
+                            <hr>
+
+
+                            <h3>Profile</h3>
+                            <div class="people-say margin-bottom-20">
+                                <div>
+                                    <span>
+                                        - 서울대학교 전기정보공학부 조교수 (현재)
+                                        <br>- 퍼듀대학교 컴퓨터과학과 조교수 (2016~2018)
+                                        <br>- 조지아공대 컴퓨터과학과 박사 (2016)
+                                        <br>- 포항공대 컴퓨터공학과 학사 (2009), 석사 (2011)
+                                        
+                                    </span>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                        </div>
+                    </div>
+                    <!-- End LEft Inner -->
+
+                    <!-- Right Inner -->
+                    <div class="col-md-7">
+                        <div class="right-inner" style="text-align: justify; height: 400px;">
+                            <hr>
+                            <h2>Abstract</h2>
+                            <p>소프트웨어 취약점은 컴퓨터 시스템의 보안에 매우 치명적인 영향을 미친다. 만약 공격자가 취약점을 성공적으로 익스플로잇하게
+                                되면, 전체 시스템의 권한을 가지게 될 수 있다. 이번 발표에서는 소프트웨어 취약점을 찾는 가장 대표적인 방법, 퍼징에 대해서
+                                다룬다. 기본적인 퍼징 시작 시점에서 부터, 어떻게 퍼징 테크닉들이 발전해왔는지, 어떠한 생각의 전환이 좋은 퍼징 결과를
+                                가져왔는지 소개한다. 좀 더 구체적으론 다음과 같은 질문들에 답하고자한다: 어떻게 하면 퍼징 시스템을 더 효율적으로 운영할 수
+                                있는지, 어떻게 하면 더 퍼징에 적합하게 취약점을 디텍션 할 수 있는지, 어떻게 하면 특정한 패턴의 버그들을 더 잘 퍼징할 수
+                                있는지. 마지막으로 이러한 발전을 기반으로 앞으로 퍼징 기술이 나아가야 할 방향을 생각해보고자 한다.
+                            </p>
+                            <hr>			
+                        </div>
+                    </div>
+                    <!-- End Right Inner -->
+                </div>
+                <div class="row"></div>
+                <br><br><br><br>
+				
+
+
+				<div class="title-box-v2" id="Session4" >
+					<h3><b>(Newbie Session) Chronicles and Attribution of Ransomwares : 랜섬웨어 연대기 및 유사도 분석</b></h3>
+				</div>
+				<div class="row">
+					<!-- Left Inner -->
+					<div class="col-md-5">
+						<div class="left-inner" style="height: 600px"> 
+							<img src="img/bio/JHJ.jpg" alt="">
+							<div class="overflow-h">
+								<span class="font-s"><b>주하종</b></span>
+								<p class="color-green">SCHCsRC</p>
+								<ul class="social-icons">
+									<li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+								</ul>
+							</div>
+
+							<hr>
+
+							<h3>Profile</h3>
+							<div class="people-say margin-bottom-20" style="text-align:left">
+                                <span>
+                                    - 순천향대학교 SCH사이버보안연구센터(SCHCsRC) 소속 연구원
+                                    <br>- 다양한 프로그램 분석 기술에 관심이 있습니다.
+                                        
+
+                                </span>
+                            </div>
+                            
+                            <hr>
+
+
+                            <img src="img/bio/KYJ.jpg" alt="">
+							<div class="overflow-h">
+								<span class="font-s"><b>김예준</b></span>
+								<p class="color-green">SCHCsRC</p>
+								<ul class="social-icons">
+									<li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+								</ul>
+							</div>
+
+							<hr>
+
+							<h3>Profile</h3>
+							<div class="people-say margin-bottom-20" style="text-align:left">
+									<span>
+                                        - 순천향대학교 SCH사이버보안연구센터(SCHCsRC) 소속, 연구생(2015.12. ~ )
+                                        <br>- 악성코드와 TI(Threat Intelligence)에 관심을 두고 공부하고 있습니다.
+                                            
+
+                                    </span>
+                            </div>
+                            
+                            <hr>
+
+
+						</div>
+					</div>
+					<!-- End LEft Inner -->
+
+					<!-- Right Inner -->
+					<div class="col-md-7">
+						<div class="right-inner" style="text-align: justify; height: 600px;">
+							<hr>
+							<h2>Abstract</h2>
+							<p>지난 2017년 2월 17일, Magnitude EK (Exploit Kit)을 사용하고 Cerber 랜섬웨어와 유사한 새로운 랜섬웨어가 발견되었고 이를 마이랜섬이라고 명명한 적이 있다. 이후, 2018년, 4월 초 마이랜섬 (A.K.A Magniber)를 유포하던 동일한 사이트에서 갠드크랩 랜섬웨어가 유포되었다. 이와 같이 랜섬웨어 간에는 코드 관점에서의 유사성뿐만 아니라 동일한 유포지를 사용하는 정황 등의 유사성도 발견되고 있다.
+                                본 발표에서는 현재까지 국내외에 유포되었던 수많은 랜섬웨어들의 역사에 대해 알아보고 각각의 랜섬웨어 간의 유사도를 분석한 결과를 살펴보고자 한다.
+                            </p>
+							<hr>			
+						</div>
+					</div>
+					<!-- End Right Inner -->
+				</div>
+
+				<div class="row"></div>
+				<br><br><br><br>
+
+
+                <div class="title-box-v2" id="Session5" >
+                    <h3><b>All NEW Non-ActiveX !?!?</b></h3>
+                </div>
+                <div class="row">
+                    <!-- Left Inner -->
+                    <div class="col-md-5">
+                        <div class="left-inner" style="height: 400px"> 
+                            <img src="img/bio/BA.png" alt="">
+                            <div class="overflow-h">
+                                <span class="font-s"><b>BokdungAbum</b></span>
+                                <p class="color-green">-</p>
+                                <ul class="social-icons">
+                                    <li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+                                </ul>
+                            </div>
+
+                            <hr>
+
+
+                            <h3>Profile</h3>
+                            <div class="people-say margin-bottom-20">
+                                <div>
+                                    <span>
+                                        - 애플리케이션 보안에 관심이 많은 Pentester
+                                    </span>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                        </div>
+                    </div>
+                    <!-- End LEft Inner -->
+
+                    <!-- Right Inner -->
+                    <div class="col-md-7">
+                        <div class="right-inner" style="text-align: justify; height: 400px;">
+                            <hr>
+                            <h2>Abstract</h2>
+                            <p>우리나라는 인터넷 뱅킹이나 모바일뱅킹이 발달된 나라이다. 그래서 돈을 목적으로 한 해커들의 좋은 놀이터이기도 하다. 이러한 해커들의 공격을 막기위해 국내 사용자들은 많은 보안프로그램 설치를 강요받고 있지만, 아이러니하게도 안전하기 위해 설치한 보안프로그램에 의해 새로운 위협에 놓이기도 한다. 본 발표에서는 컨플라이언스와 함께 변화하고 있는 보안프로그램 구동 방식의 Case Study를 공유하고자 한다. 또한 국내 보안 전문가들과 고민해봤으면 하는 현안에 대해 이야기 하고자 한다.</p>
+                            <hr>			
+                        </div>
+                    </div>
+                    <!-- End Right Inner -->
+                </div>
+                <div class="row"></div>
+                <br><br><br><br>
+    
+
+
+				<div class="title-box-v2" id="Session5" >
+					<h3><b>Shadow Voice : Android app based Voice Phishing Incident Response</b></h3>
+				</div>
+				<div class="row">
+					<!-- Left Inner -->
+					<div class="col-md-5">
+						<div class="left-inner" style="height: 350px"> 
+							<img src="img/bio/ED.jpg" alt="">
+							<div class="overflow-h">
+								<span class="font-s"><b>EnergyDrink with EnergyBrothers(EnergyStar, EnergyMonster)</b></span>
+								<p class="color-green"> - </p>
+								<ul class="social-icons">
+									<li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+								</ul>
+							</div>
+
+							<hr>
+
+
+							<h3>Profile</h3>
+							<div class="people-say margin-bottom-20">
+								<div>
+									<span>
+                                        - 다수의 국내외 보안컨퍼런스 발표
+                                        <br>- 피싱사이트 근간을 흔들기 위한 방법을 고민하고 있습니다.
+                                            
+
+                                    </span>
+								</div>
+							</div>
+
+							<hr>
+
+						</div>
+					</div>
+					<!-- End LEft Inner -->
+
+					<!-- Right Inner -->
+					<div class="col-md-7">
+						<div class="right-inner" style="text-align: justify; height: 350px;">
+							<hr>
+							<h2>Abstract</h2>
+							<p>
+                                국내 안드로이드 스마트폰 사용자 대상으로 발생하고 있는 보이스피싱 공격에 대해 추적 분석한 결과 발표
+                            </p>
+							<hr>			
+						</div>
+					</div>
+					<!-- End Right Inner -->
+				</div>
+				<div class="row"></div>
+				<br><br><br><br>
+
+
+
+				
+
+
+
+				<div class="title-box-v2" id="Session6">
+					<h3><b>(Invited Talk) The Rifle Sequel: What Goes Around Comes Around #CryptoExchange #Financial</b></h3>
+				</div>
+				<div class="row">
+					<!-- Left Inner -->
+					<div class="col-md-5">
+						<div class="left-inner" style="height: 350px"> 
+							<img src="img/bio/EN.jpg" alt="">
+							<div class="overflow-h">
+								<span class="font-s"><b>EnergyStar</b></span>
+								<p class="color-green">-</p>
+								<ul class="social-icons">
+									<li><a class="social_facebook" data-original-title="Facebook" href="#"></a></li>
+								</ul>
+							</div>
+
+							<hr>
+
+
+							<h3>Profile</h3>
+							<div class="people-say margin-bottom-20">
+								<div>
+									<span>
+                                        - 위협 인텔리전스 업무를 하고 있으며, 국내외 위협그룹에 관심이 많습니다.
+                                        <br>- 최근에는 TI를 어떻게 하면 학문적으로 만들 수 있을까에 대한 고민(만) 하고 있으며, 관련 도구들에 대해서도 열심히 구상(만)하고 있습니다.       
+                                    </span>
+								</div>
+							</div>
+
+							<hr>
+
+						</div>
+					</div>
+					<!-- End LEft Inner -->
+
+					<!-- Right Inner -->
+					<div class="col-md-7">
+						<div class="right-inner" style="text-align: justify; height: 350px;">
+							<hr>
+							<h2>Abstract</h2>
+							<p>흔히 유행은 돌고 돈다라는 표현이 있다. 사이버 공간에서의 공격 트렌드도 마찬가지다.
+                                <br>얼마전에는 A라는 업권을 공격하고 있는 것으로 보이다가도 어느순간은 다시 B라는 업권을 공격한다. 
+                                전자의 공격과 후자의 공격은 서로 맞물려 있고 서로에게 도움을 준다.
+                                본 발표에서는 작년 Campaign Rifle 이후의 공격 트렌드에 대해 살펴보기로 하며, 가상통화 거래소 공격과 기존 금융권 공격 사이의 교점을 알아보고자 한다.
+                                또한 그동안 공개하지 않았던 소소한 비하인드 스토리들을 공유하고자 한다. (이제는 말할 수 있다... 말하고 싶다.)
+                            </p>
+							<hr>			
+						</div>
+					</div>
+					<!-- End Right Inner -->
+				</div>
+				<div class="row"></div>
+				<br><br><br><br>
+
+
+				
+
+			</div>
+		</div>
+		<!--=== End Job Description ===-->
+
+
+		<!--=== Footer Version 1 ===-->
+		<div class="footer-v1">
+            <div class="footer"> <!-- need change background color #252525 -->
+                <div class="container">
+                    <div class="row">
+                        <!-- About -->
+                        <div class="col-md-9 md-margin-bottom-40">
+                        </div><!--/col-md-3-->
+
+                        <!-- Address -->
+                        <div class="col-md-3 map-img md-margin-bottom-40">
+                            <div class="headline"><h2>Contact Us</h2></div>
+                            <address class="md-margin-bottom-40">
+                                Email: <a href="mailto:cfp@kimchicon.org" class="">cfp@kimchicon.org(CFP)</a>
+                                <br> <a href="mailto:faq@kimchicon.org" class="">faq@kimchicon.org(일반문의)</a>
+                            </address>
+                        </div><!--/col-md-3-->
+                        <!-- End Address -->
+                    </div>
+                </div>
+            </div><!--/footer-->
+
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                Copyright &copy; Kimchicon 2018 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/copyright-->
+        </div>
+        <!--=== End Footer Version 1 ===-->
+	</div><!--/wrapper-->
+
+
+
+	<!-- JS Global Compulsory -->
+	<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="plugins/jquery/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- JS Implementing Plugins -->
+	<script type="text/javascript" src="plugins/back-to-top.js"></script>
+	<script type="text/javascript" src="plugins/smoothScroll.js"></script>
+	<script type="text/javascript" src="plugins/parallax-slider/js/modernizr.js"></script>
+	<script type="text/javascript" src="plugins/sky-forms-pro/skyforms/js/jquery-ui.min.js"></script>
+	<!-- JS Customization -->
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!-- JS Page Level -->
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			App.init();
+			App.initScrollBar();
+		});
+	</script>
+		<!--[if lt IE 9]>
+			<script src="/plugins/respond.js"></script>
+			<script src="/plugins/html5shiv.js"></script>
+			<script src="/plugins/placeholder-IE-fixes.js"></script>
+		<![endif]-->
+
+	</body>
+	</html>
+<style>
+.footer {
+    background-color: #252525;
+}
+
+
+</style>
