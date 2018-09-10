@@ -45,6 +45,8 @@
 
 	<!-- CSS Customization -->
 	<link rel="stylesheet" href="css/custom.css">
+
+	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=8xFFqPfOGsMVdI1rXsQ9&submodules=geocoder"></script>
 </head>
 
 <body class="dark">
@@ -133,7 +135,41 @@
 			<div class="container overflow-h">
 				<div class="row">
 					<div class="col-md-12 animated fadeInLeft text-center">
-						<span><b><h1>2018년 <font color="#a10f2b">9</font>월 <font color="#a10f2b">14</font>일~ <font color="#a10f2b">9</font>월<font color="#a10f2b">15</font>일</h2></b><small><br>고품격 보안 컨퍼런스<br>김치콘이 여러분을 찾아갑니다.<br><br>장소: 서울</span>
+						<span>
+							<b><h1>2018년 <font color="#a10f2b">9</font>월 <font color="#a10f2b">14</font>일~ <font color="#a10f2b">9</font>월<font color="#a10f2b">15</font>일</h2></b><small><br>고품격 보안 컨퍼런스<br>김치콘이 여러분을 찾아갑니다.
+								<br><br>장소: 일지아트홀<br><h4>서울특별시 강남구 선릉로 806 <br>서울특별시 강남구 청담동 86 킹콩빌딩 지하2층)</h4>
+								<br>
+								
+								<center><div class="col-md-8 col-md-offset-2" id="map" style="height:400px;"></div></center>
+
+								<script>
+								var x = 37.5238939;
+								var y = 127.0396779;
+								var mapOptions = {
+									center: new naver.maps.LatLng(x, y),
+									zoom: 12,
+									draggable: true,
+									pinchZoom: false,
+									scrollWheel: true,
+									keyboardShortcuts: false,
+									disableDoubleTapZoom: true,
+									disableDoubleClickZoom: true,
+									disableTwoFingerTapZoom: true
+								};
+
+								var map = new naver.maps.Map('map', mapOptions);
+								var marker = new naver.maps.Marker({
+									position: new naver.maps.LatLng(x, y),
+									map: map,
+									icon: {
+										url: './img/pin.png',
+										size: new naver.maps.Size(45, 60),
+										origin: new naver.maps.Point(0, 0),
+										anchor: new naver.maps.Point(23, 60)
+									}
+								});
+								</script>
+							</span>
 					</div>
 				</div>
 			</div>
